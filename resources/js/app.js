@@ -4,7 +4,9 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-import './bootstrap';
+import 'datatables.net-bs5';
+import 'datatables.net-responsive-bs5';
+import 'bootstrap';
 import { createApp } from 'vue';
 
 /**

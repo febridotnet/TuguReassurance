@@ -4,7 +4,7 @@
 @section('content')
 <div class="container mt-4">
     <h2>Add New Item</h2>
-    <form action="{{ route('items.store') }}" method="POST">
+<form action="http://localhost:8000/items/store" method="PUT">
         @csrf
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
